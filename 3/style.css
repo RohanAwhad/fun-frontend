@@ -1,0 +1,47 @@
+:root {
+    --blue: rgb(21, 101, 192);
+    --light-blue: rgb(41, 182, 246);
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.link {
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    padding: clamp(0.25em, 1vw, 1em) clamp(1em, 4vw, 4em);
+    font-size: clamp(2em, 8vw, 7em);
+    font-family: 'Michroma', monospace;
+    text-decoration: none;
+    position: relative;
+}
+
+.link:nth-child(3) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.link:before {
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--blue) var(--blue-percent),
+        var(--light-blue)
+    );
+    content: "";
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+}
+.link:hover:before {
+    width: 100%;
+    transition: width 0.5s ease;
+}
