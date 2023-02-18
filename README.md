@@ -7,6 +7,7 @@ Fun short frontend projects
 1. [x] [The Ultimate Hacker Effect for Text... ](https://www.youtube.com/watch?v=W5oawMJaXbU&t=39s&ab_channel=Hyperplexed)
 2. [x] [Blob following mouse around](https://www.youtube.com/watch?v=kySGqoU7X-s&t=26s&ab_channel=Hyperplexed)
 3. [x] [Cool Navbar](https://www.youtube.com/watch?v=oJYFRZ4cj2Q&t=154s&ab_channel=Hyperplexed)
+4. [x] [A Calm and Relaxing Animation for HomePage](https://www.youtube.com/watch?v=dhfQnmGXSwU&t=1s&ab_channel=Hyperplexed)
 
 ## Learnings
 
@@ -31,3 +32,8 @@ Fun short frontend projects
 - Using CSS clamp function
 - Using :before and :after pseudo elements
 - Using nth-child to select elements
+
+### From 4
+
+- Using transition to animate elements
+- Creating seemingly complex animations with simple CSS and JS
